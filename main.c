@@ -1,0 +1,1 @@
+// Chamada de todas as funções implementadas no projeto.
