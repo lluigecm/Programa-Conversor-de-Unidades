@@ -1,0 +1,1 @@
+//Arquivo para funções de conversão de tempo

@@ -1,16 +1,16 @@
 ﻿# Programa-Conversor-de-Unidades
 
 conversor_unidades/
-├── lib/
-│   ├── comprimento.h
-│   ├── massa.h
-│   ├── volume.h
-│   ├── temperatura.h
-│   ├── velocidade.h
-│   ├── eletricidade.h
-│   ├── area.h
-│   ├── tempo.h
-│   ├── armazenamento.h
-│   └── funcoes.h
+├── libs/
+│ ├── comprimento.c
+│ ├── massa.c
+│ ├── volume.c
+│ ├── temperatura.c
+│ ├── velocidade.c
+│ ├── eletricidade.c
+│ ├── area.c
+│ ├── tempo.c
+│ ├── armazenamento.c
+│ └── funcoes.c
 └── main.c
-└── README.md 
+└── README.md

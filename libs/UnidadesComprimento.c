@@ -1,1 +1,0 @@
-// Arquivo auxiliar com funções de conversão de unidades de comprimento.
