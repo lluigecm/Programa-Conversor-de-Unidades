@@ -10,6 +10,5 @@
         │ ├── area.c
         │ ├── tempo.c
         │ ├── armazenamento.c
-        │ └── funcoes.c
     └── main.c
     └── README.md
