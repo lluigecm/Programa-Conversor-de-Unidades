@@ -12,6 +12,4 @@
 #include "tempo.c"
 #include "armazenamento.c"
 
-// Você pode adicionar mais funções auxiliares aqui, se necessário
-
 #endif // FUNCOES_H
