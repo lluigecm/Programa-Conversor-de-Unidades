@@ -23,13 +23,13 @@ void chooseTemp(int op);
 void menuVelocidade();
 void chooseVel(int op);
 void menuEletricidade();
+void chooseEletricidade(int op);
 void menuArea();
 void chooseArea(int op);
 void menuTempo();
 void chooseTempo(int op);
 void menuArmazenamento();
 void chooseArmazenamento(int op);
-
 
 
 void menu(){
