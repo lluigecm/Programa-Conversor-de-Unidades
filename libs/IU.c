@@ -422,11 +422,16 @@ void chooseVel(int op){
 void menuEletricidade(){
     int op = -1;
 
-    while(op > 1 || op < 0){
+    while(op > 6 || op < 0){
         printf("\n--------------------- MENU ELETRICIDADE ---------------------\n");
         printf("Digite o numero correspondente a opcao desejada: \n");
         printf("0 - Voltar ao Menu Inicial\n");
-        printf("1 - Em desenvolvimento\n");
+        printf("1 - Watts --> Kilowatts\n");
+        printf("2 - Kilowatts --> Watts\n");
+        printf("3 - Kilowatts --> Cavalos\n");
+        printf("4 - Cavalos --> Kilowatts\n");
+        printf("5 - Watts --> Cavalos\n");
+        printf("6 - Cavalos --> Watts\n");
         printf("Opcao: ");
         scanf("%d", &op);
     }
@@ -434,7 +439,47 @@ void menuEletricidade(){
     if (op == 0)
         return menu();
 
-    return menuEletricidade();
+    return chooseEletricidade(op);
+}
+
+void chooseEletricidade(int op){
+    float valor;
+    system("cls");
+    switch (op)
+    {
+        case 1:
+            printf("Digite o valor em Watts: ");
+            scanf("%f", &valor);
+            printf("\n\t\t%.2f Watts equivalem a %.2f Kilowatts\n", valor, watts_para_kw(valor));
+            return menuEletricidade();
+        case 2:
+            printf("Digite o valor em Kilowatts: ");
+            scanf("%f", &valor);
+            printf("\n\t\t%.2f Kilowatts equivalem a %.2f Watts\n", valor, kw_para_watts(valor));
+            return menuEletricidade();
+        case 3:
+            printf("Digite o valor em Kilowatts: ");
+            scanf("%f", &valor);
+            printf("\n\t\t%.2f Kilowatts equivalem a %.2f Cavalos\n", valor, kw_para_cv(valor));
+            return menuEletricidade();
+        case 4:
+            printf("Digite o valor em Cavalos: ");
+            scanf("%f", &valor);
+            printf("\n\t\t%.2f Cavalos equivalem a %.2f Kilowatts\n", valor, cv_para_kw(valor));
+            return menuEletricidade();
+        case 5:
+            printf("Digite o valor em Watts: ");
+            scanf("%f", &valor);
+            printf("\n\t\t%.2f Watts equivalem a %.2f Cavalos\n", valor, watts_para_cv(valor));
+            return menuEletricidade();
+        case 6:
+            printf("Digite o valor em Cavalos: ");
+            scanf("%f", &valor);
+            printf("\n\t\t%.2f Cavalos equivalem a %.2f Watts\n", valor, cv_para_watts(valor));
+            return menuEletricidade();
+        default:
+            return menu();
+    }
 }
 
 void menuArea(){
