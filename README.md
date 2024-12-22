@@ -1,4 +1,4 @@
-# Programa de Conversão de Unidades
+﻿# Programa de Conversão de Unidades
 
 ## Descrição
 Este programa foi desenvolvido em linguagem C para realizar a conversão entre diferentes unidades de medida. Cada tipo de unidade possui um arquivo separado, o que torna o código modular e fácil de manter. O usuário pode escolher entre diversas opções de unidades, conforme a lista apresentada.
@@ -67,6 +67,6 @@ O menu interativo será exibido, permitindo ao usuário selecionar o tipo de uni
 - [Thiago Ribeiro](https://github.com/devthiagoribeiro)
 - [Mateus Coelho](https://github.com/mateuscoelhw)
 - [Daniel Santos](https://github.com/DanielSantos08)
-- [Luan](https://github.com/naulcs)
+- [Luan Pereira](https://github.com/naulcs)
 - [Maria Vitória](https://github.com/MaryVickk)
 - [Joel Santos](https://github.com/JoelSantos-JS)
