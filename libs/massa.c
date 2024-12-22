@@ -1,6 +1,3 @@
-#ifndef MASSA_H
-#define MASSA_H
-
 // Conversões de Gramas (g)
 float gToKg(float u) {
     return u / 1000;  // gramas para quilogramas
@@ -40,5 +37,3 @@ float mgToG(float u) {
 float mgToKg(float u) {
     return u / 1000000;  // miligramas para quilogramas
 }
-
-#endif

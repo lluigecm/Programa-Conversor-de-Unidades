@@ -1,5 +1,4 @@
 //Arquivo para funções de conversão de armazenamento
-#include <stdio.h>
 
 // Funções para conversão
 

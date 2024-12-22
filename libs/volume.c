@@ -1,6 +1,4 @@
 //Arquivo para funções de conversão de volume
-#ifndef VOLUME_H
-#define VOLUME_H
 
 // Conversões de Litros 
 float litrosToMililitros(float l) {
@@ -28,5 +26,3 @@ float metrosCubicosToLitros(float m3) {
 float metrosCubicosToMililitros(float m3) {
     return m3 * 1e6;
 }
-
-#endif

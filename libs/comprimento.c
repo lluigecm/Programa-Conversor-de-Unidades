@@ -1,5 +1,4 @@
 //Arquivo para funções de conversão de comprimento
-#include <stdio.h>
 
 //metros para centimetros
 float metros_centimetros (float metros){

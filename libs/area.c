@@ -1,7 +1,3 @@
-#ifndef AREA_H
-#define AREA_H
-
-//
 float metrosQuadradosToCentimetrosQuadrados(float m2) {
     return m2 * 10000; 
 }
@@ -26,5 +22,3 @@ float kilometrosQuadradosToMetrosQuadrados(float km2) {
 float milimetrosQuadradosToCentimetrosQuadrados(float mm2) {
     return mm2 / 100; 
 }
-
-#endif

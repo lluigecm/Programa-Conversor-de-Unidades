@@ -1,7 +1,5 @@
 //Arquivo para funções de conversão de tempo
 
-#include <stdio.h>
-
 // Funções de conversão de tempo
 float segundosParaMinutos(float segundos)
 {

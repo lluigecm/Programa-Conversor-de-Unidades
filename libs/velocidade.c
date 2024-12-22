@@ -1,7 +1,3 @@
-// Arquivo para funções de conversão de velocidade
-#ifndef VELOCIDADE_H
-#define VELOCIDADE_H
-
 // Conversões de Quilômetros por Hora para Metros por Segundo
 float kmhToMs(float u)
 {
@@ -37,5 +33,3 @@ float mphToMs(float u)
 {
     return u * 0.44704;
 }
-
-#endif
