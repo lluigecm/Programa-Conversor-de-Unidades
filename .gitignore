@@ -1,0 +1,5 @@
+# Ignore arquivos executáveis (.exe)
+*.exe
+
+# Ignore a pasta output e seus conteúdos
+output/
