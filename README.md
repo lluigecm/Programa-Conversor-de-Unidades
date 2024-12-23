@@ -1,7 +1,7 @@
 ﻿# Programa de Conversão de Unidades
 
 ## Descrição
-Este programa foi desenvolvido em linguagem C para realizar a conversão entre diferentes unidades de medida. Cada tipo de unidade possui um arquivo separado, o que torna o código modular e fácil de manter. O usuário pode escolher entre diversas opções de unidades, conforme a lista apresentada.
+Este programa foi desenvolvido em C para realizar a conversão entre diferentes unidades de medida. Cada tipo de unidade possui um arquivo próprio, o que torna o código modular e de fácil manutenção. O usuário pode escolher entre 9 opções de unidades, conforme a lista apresentada.
 
 ## Funcionalidades
 O programa permite a conversão entre as seguintes unidades:
@@ -14,7 +14,7 @@ O programa permite a conversão entre as seguintes unidades:
 6. **Potência**: Watts (W), quilowatts (kW), cavalos-vapor (cv ou hp).
 7. **Unidades de Área**: metro quadrado, centímetro quadrado.
 8. **Unidades de Tempo**: segundos, minutos, horas.
-9. **Unidades de Dados**: bits, bytes, kilobytes (KB), megabytes (MB), gigabytes (GB), terabytes (TB).
+9. **Unidades de Armazenamento**: bits, bytes, kilobytes (KB), megabytes (MB), gigabytes (GB), terabytes (TB).
 
 ## Estrutura do Projeto
 O projeto está dividido em arquivos individuais para cada tipo de unidade:
