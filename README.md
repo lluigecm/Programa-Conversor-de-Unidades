@@ -59,7 +59,7 @@ O menu interativo será exibido, permitindo ao usuário selecionar o tipo de uni
 - Compilador C (gcc ou equivalente).
 - Sistema operacional compatível com programas C.
 
-## Desenvlvedores
+## Desenvolvedores
 - [Lucas Luige](https://github.com/lluigecm)
 - [Evelyn Suzarte](https://github.com/Evelynsuzarte)
 - [Caio Natividade](https://github.com/CaioNatividade)
